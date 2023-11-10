@@ -4,7 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Person p = new Person();
+        Console.WriteLine(p.FirstName);
+        Console.WriteLine(p.LastName);
+
     }
 }
 
